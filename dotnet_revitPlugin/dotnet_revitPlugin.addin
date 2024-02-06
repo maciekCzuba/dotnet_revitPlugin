@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>dotnet_revitPlugin</Name>
+		<Assembly>dotnet_revitPlugin.dll</Assembly>
+		<AddInId>136C3FF6-7DFD-41B3-9A29-350378A5C618</AddInId>
+		<FullClassName>dotnet_revitPlugin.GetElementId</FullClassName>
+		<Text>GetElementId</Text>
+		<Description>Get the Id from an element</Description>
+		<VendorId>mtczu</VendorId>
+		<VendorDescription>Revit Developer</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
