@@ -2,7 +2,7 @@
 <RevitAddIns>
 	<AddIn Type="Command">
 		<Name>dotnet_revitPlugin</Name>
-		<Assembly>dotnet_revitPlugin.dll</Assembly>
+		<Assembly>.\Revit_mtczu\dotnet_revitPlugin.dll</Assembly>
 		<AddInId>136C3FF6-7DFD-41B3-9A29-350378A5C618</AddInId>
 		<FullClassName>dotnet_revitPlugin.GetElementId</FullClassName>
 		<Text>GetElementId</Text>
