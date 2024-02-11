@@ -11,4 +11,28 @@
 		<VendorDescription>Revit Developer</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>dotnet_revitPlugin</Name>
+		<Assembly>.\Revit_mtczu\dotnet_revitPlugin.dll</Assembly>
+		<AddInId>389D035B-007C-4767-BE39-0B0E40727C57</AddInId>
+		<FullClassName>dotnet_revitPlugin.ChangeSymbolName</FullClassName>
+		<Text>ChangeSymbolName</Text>
+		<Description>Add 'WIP' to the end of the symbol name</Description>
+		<VendorId>mtczu</VendorId>
+		<VendorDescription>Revit Developer</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>dotnet_revitPlugin</Name>
+		<Assembly>.\Revit_mtczu\dotnet_revitPlugin.dll</Assembly>
+		<AddInId>976EFC21-B3C9-4BD1-A670-76E0203E9DBA</AddInId>
+		<FullClassName>dotnet_revitPlugin.GetElementsName</FullClassName>
+		<Text>GetNamesAndIds</Text>
+		<Description>Retrieve names and ids of selected elements</Description>
+		<VendorId>mtczu</VendorId>
+		<VendorDescription>Revit Developer</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
 </RevitAddIns>
